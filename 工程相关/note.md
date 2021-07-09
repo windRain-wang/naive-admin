@@ -27,3 +27,24 @@
 [theme-chalk-preview](https://github.com/ElementUItheme-chalk-preview)
 
 [elementui 换肤案例](https://github1s.com/ElementUI/theme-preview)
+
+[Vue 换肤实践](https://juejin.cn/post/6844903553090191368)
+
+- 提前写好 几套可以更换的主题， 进行替换
+- 利用 颜色选择器， 来选择一种主题颜色，然后根据选择颜色，生成其他要使用颜色。再进行替换
+- 思路：
+  1. 给所有css选择器加一个样式名的类选择器，并把这个类名绑定到body元素上，然后通过DOM API来动态切换主题。以下代码演示了如何通过less编译统一给所有的css选择器添加一个样式名的类选择器。
+  2. 使用可以在浏览器上直接运行的less，通过传入变量动态编译。
+  3. 更换 haed 中引用的 style 文件
+  4. 更换 style 文件中的 颜色
+> 其实，最本质的都是 要改变 颜色。
+
+##  主题换肤方案 (Vite + Vue3 + tailwindcss )
+- [在 Vue 3 和 Vite 安装 Tailwind CSS](https://www.tailwindcss.cn/docs/guides/vue-3-vite)
+- [使用预处理器](https://www.tailwindcss.cn/docs/using-with-preprocessors#)
+
+
+# tailwindcss in vscode
+- [Recommended configuration](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+
+# [GHelper](http://googlehelper.net/)
