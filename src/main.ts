@@ -10,4 +10,6 @@ import "vfonts/Lato.css";
 // 等宽字体
 import "vfonts/FiraCode.css";
 
+import "./styles/index.css";
+
 createApp(App).use(router).use(store).use(naive).use(i18n).mount("#app");

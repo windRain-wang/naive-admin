@@ -9,7 +9,7 @@
     - 回去看一下视频。
 - vue-admin 另外一个 后台管理系统
     > https://panjiachen.github.io/vue-element-admin-site/#/theme
-- [elementUI 换肤方案](https://github.com/ElemeFE/element/issues/3054)
+- [Github 讨论的换肤方案](https://github.com/ElemeFE/element/issues/3054)
 - [使用 CSS variables 和Tailwind css实现主题换肤](https://juejin.cn/post/6971708936734900254)
 - Bulma 和 tailwindcss
     - [Bulma](https://bulma.io/)

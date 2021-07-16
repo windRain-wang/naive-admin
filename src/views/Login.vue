@@ -42,7 +42,7 @@ const userLogin = () => {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="postcss" scoped>
 .login {
   height: 100vh;
   display: flex;

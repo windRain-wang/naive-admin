@@ -48,3 +48,28 @@
 - [Recommended configuration](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
 # [GHelper](http://googlehelper.net/)
+
+# 关于 tailwindcss 配置， 主题的使用
+    ```js
+    // --color-base 是 css变量
+    // base: 'var(--color-base)' => bg-base
+    module.exports = {
+        theme: {
+            extend: {
+              colors: {
+                amber: colors.amber,
+                lime: colors.lime,
+                rose: colors.rose,
+                orange: colors.orange
+              }
+            },
+            backgroundColor: {
+              base: 'var(--color-base)',
+              'off-base': 'var(--color-off-base)',
+              primary: 'var(--color-primary)',
+              secondary: 'var(--color-secondary)',
+              muted: 'var(--color-muted)'
+            }
+        }
+    }
+    ```
